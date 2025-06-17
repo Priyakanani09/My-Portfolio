@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Navbar</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+
+<body style="background-color: rgb(35, 38, 45); color: white;">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand text-light font fs-3 ms-4" href="#">Priya Kanani</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav gap-4 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                </ul>
+                <form class="d-flex ms-4" role="search">
+                    <a href="#contact" class="btn btn-primary btn1" type="submit">Contact Us</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="row d-flex justify-content-center mt-6 font">
+        <div style="text-align: left; width: 450px;">
+            <h1 class=" text-secondary">I'm</h1>
+            <h1 class="font-size">Priya Kanani</h1>
+            <h1 class="text-secondary font-size">Full Stack Developer</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-6" id="about">
+            <div class="col-lg-6 col-md-12 text-center">
+                <img src="img/my-photo.png" style="width: 75%; border-radius: 10px;" />
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+                <h1>About Me</h1><br>
+                <p style="font-size: 17px;" class="text-secondary">
+                    My name is Priya Kanani. I have completed my Bachelor of Computer Applications (BCA) from
+                    L.J. College of Computer Applications. Throughout my studies, I developed a strong interest
+                    in programming and front-end development. I have practical knowledge of C, C++, HTML5, CSS3,
+                    JavaScript, Bootstrap, and ReactJS. I enjoy creating responsive and user-friendly web
+                    interfaces and am always eager to learn new technologies to improve my development skills.
+                </p>
+                <a href="Priya-kanani.pdf" class="btn btn-primary mt-3 w-25"  target="_blank">Resume</a>
+            </div>
+        </div>
+
+        <div class="row mt-4" id="portfolio">
+            <div class="col text-center mt-5">
+                <h1>Portfolio</h1>
+                <p class="mt-2 text-secondary" style="font-size: 17px; font-weight: 500;">
+                    Here are some of the projects I’ve worked on that showcase my skills in front-end <br> and
+                    full-stack
+                    development.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-12">
+                <img src="img/mobile1.png" class="img1" />
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+                <h1>Mobile App Design</h1>
+                <p class="mt-0 text-secondary" style="font-size: 17px; font-weight: 500;">
+                    I created a simple and clean website to promote a mobile app. It has sections like
+                    Features, FAQs, Blog, and Support. I used HTML, CSS (with Bootstrap), and Font Awesome
+                    icons. The website works well on both phones and computers. It helps users understand the
+                    app and how to use it. This project shows my skills in web design and development.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-6 mb-5">
+            <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+                <h1>E-Commerce Website</h1>
+                <p class="mt-0 text-secondary" style="font-size: 17px; font-weight: 500;">
+                    This is a responsive React website for an online plant store. It features a carousel
+                    slider, product listings with hover effects, and categorized collections. The design
+                    uses Bootstrap for layout and styling, ensuring it works well on all devices. I
+                    integrated Font Awesome icons and custom CSS for a clean, modern look. This project
+                    highlights my skills in React and responsive design.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-12 ">
+                <img src="img/slider-plant-2.png" style="width: 100%; height: 320px;" />
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-12">
+                <img src="img/watch16.png" style="width: 85%; height: 410px;" />
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+                <h1>Watch App Design</h1>
+                <p class="mt-0 text-secondary" style="font-size: 17px; font-weight: 500;">
+                    This is a modern and responsive watch product website built using HTML, CSS, and Bootstrap.
+                    It features a clean layout, product showcases, and stylish icons with the help of Font
+                    Awesome. The site is designed to be user-friendly and works well on both desktop and
+                    mobile devices. I focused on creating a professional look to highlight the watch brand
+                    and its features. This project helped me practice responsive design and front-end
+                    development skills. It can be further extended into a full e-commerce site.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-4" id="experience">
+            <div class="col text-center mt-5">
+                <h1>Experience</h1>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center mt-5 mb-4">
+            <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                <i class="fa-brands fa-css3 fs-1 icon1"></i><br><br>
+                <h5>CSS3</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                <i class="fa-brands fa-html5 fs-1 icon2"></i><br><br>
+                <h5>HTML5</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                <i class="fa-brands fa-bootstrap fs-1 icon1"></i><br><br>
+                <h5>Bootstrap</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                <i class="fa-brands fa-js fs-1 icon3"></i><br><br>
+                <h5>JavaScript</h5>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 text-center">
+                <i class="fa-brands fa-react fs-1 icon1"></i><br><br>
+                <h5>ReactJS</h5>
+            </div>
+        </div>
+
+        <div class="row mt-4 mb-5" id="contact">
+            <div class="col text-center mt-5">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-lg-6 col-md-16 d-flex flex-column justify-content-center">
+                <h2>Drop Me a Message</h2>
+                <p class="text-secondary font">Interested in working together or have any questions? <br>
+                    Feel free to contact me using the form below.</p><br>
+                <p>
+                    <span class="icon4">
+                        <i class="fa-solid fa-phone-volume fs-5"></i>
+                    </span>
+                    <span>&nbsp;&nbsp;+123 658 456</span>
+                </p>
+                <p class="mt-4">
+                    <span class="icon4">
+                        <i class="fa-regular fa-envelope fs-5"></i>
+                    </span>
+                    <span>&nbsp;&nbsp;Priya@gmail.com</span>
+                </p>
+                <p class="mt-4">
+                    <span class="icon5">
+                        <i class="fa-solid fa-location-dot fs-5"></i>
+                    </span>
+                    <span>&nbsp;&nbsp;Ahmedabad</span>
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-12 form-bg">
+                <form>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="First name.."
+                                aria-label="First name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Last name.."
+                                aria-label="Last name">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email Id..">
+                        </div>
+
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" placeholder="Messages.." rows="4"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary" style="width: 100px;">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="row mb-1">
+            <div class="col-lg-6 col-md-12">
+                <p class="mb-0">&copy; 2025 Priya Kanani | All rights reserved.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex gap-2 justify-content-end">
+                <i class="fab fa-facebook-f icon5 "></i>
+                <i class="fab fa-linkedin-in icon4 fs-5"></i>
+                <i class="fab fa-github icon4 fs-5"></i>
+                <i class="fa-brands fa-instagram icon4 fs-5"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
