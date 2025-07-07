@@ -97,33 +97,31 @@
         height: 100% !important;
     }
 }
-/* Base style for all icons */
+
 .social-icons a i {
   font-size: 24px;
   transition: color 0.3s ease;
 }
 
-/* Default white color */
 .social-icons a i {
-   background-color: rgb(81, 80, 80);
+    background-color: rgb(81, 80, 80);
     padding: 10px 10px 10px 13px;
     border-radius: 40px; 
-  color: white;
+    color: white;
 }
 
-/* Hover color for each platform */
 .social-icons a:hover .facebook-icon {
-  color: #3b5998; /* Facebook Blue */
+  color: #3b5998; 
 }
 
 .social-icons a:hover .linkedin-icon {
-  color: #0a66c2; /* LinkedIn Blue */
+  color: #0a66c2; 
 }
 
 .social-icons a:hover .github-icon {
-  color: #171515; /* GitHub Black */
+  color: #171515; 
 }
 
 .social-icons a:hover .instagram-icon {
-  color: #e1306c; /* Instagram Pink */
+  color: #e1306c;
 }
