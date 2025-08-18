@@ -6,7 +6,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar .nav-link:hover {
-    color: #00cc99 !important;
+    color: rgb(120, 120, 247) !important;
 }
 .btn-custom.btn1 {
     background-color: #00cc99;
