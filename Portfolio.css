@@ -51,6 +51,9 @@
 {
     color: orangered;
 }
+.node{
+    color: green
+}
 .form-label {
     color: #c6c1c1;
     font-weight: 500;
